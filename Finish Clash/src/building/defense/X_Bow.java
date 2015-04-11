@@ -12,7 +12,7 @@ public class X_Bow extends Building implements Building_Trap {
 	private final Resource_Type resourceType = Resource_Type.gold;
 	private int reArmCost = 0;
 	private final int[] reArmCostAt = {};
-	private final Resource_Type reArmResourceType = Resource_Type.dark_elixir;
+	private final Resource_Type reArmResourceType = Resource_Type.elixir;
 	
 	public X_Bow() {
 		setUpgradeCost(upgradeCost);
